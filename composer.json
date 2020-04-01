@@ -1,0 +1,45 @@
+{
+    "name": "mevdschee/pathql-php",
+    "type": "library",
+    "description": "Single file PHP script that adds a PathQL API to a SQL database.",
+    "keywords": [
+      "pathql",
+      "pathql-api",
+      "database",
+      "sql-database",
+      "mysql",
+      "php",
+      "sql-server",
+      "postgresql",
+      "php-api",
+      "openapi",
+      "swagger",
+      "automatic-api",
+      "database",
+      "multi-database",
+      "sql-database",
+      "ubuntu-linux"
+    ],
+    "homepage": "https://github.com/mevdschee/pathql-php",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Maurits van der Schee",
+        "email": "maurits@vdschee.nl",
+        "homepage": "https://github.com/mevdschee"
+      }
+    ],
+    "require": {
+      "php": ">=7.0.0",
+      "psr/http-message": "*",
+      "psr/http-factory": "*",
+      "psr/http-server-handler": "*",
+      "psr/http-server-middleware": "*",
+      "nyholm/psr7": "*",
+      "nyholm/psr7-server": "*",
+      "mevdschee/pathpdo": "*"
+    },
+    "autoload": {
+        "psr-4": { "Tqdev\\Pathql\\": "src/Tqdev/Pathql" }
+    }
+}
